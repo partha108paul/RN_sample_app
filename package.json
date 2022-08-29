@@ -1,0 +1,31 @@
+{
+  "name": "react-native-fingerprint-example",
+  "description": "Example app for react-native-fingerprint",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "pods": "pod-install --quiet",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@types/react-native": "0.68.0",
+    "react": "*",
+    "react-native": "*",
+    "react-native-fingerprint": "git+https://partha108paul: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@github.com/partha108paul/react-native-fingerprint.git#main"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/runtime": "^7.12.5",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "metro-react-native-babel-preset": "^0.67.0",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0"
+  }
+}

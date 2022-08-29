@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.reactnativefingerprint"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/partha/OTL+Finger/example/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/partha/OTL+Finger/example/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/partha/.gradle/caches/transforms-3/85fdd9af1f70f27ec9080a3596d5a5c1/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/partha/.gradle/caches/transforms-3/85fdd9af1f70f27ec9080a3596d5a5c1/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+14-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:9:5-72
+14-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:9:22-69
+15    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+15-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:10:5-74
+15-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:10:22-71
+16    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+16-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:11:5-98
+16-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:11:22-95
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:13:5-79
+17-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:14:5-81
+18-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:14:22-78
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:16:5-79
+19-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:16:22-76
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:17:5-85
+20-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:17:22-82
+21    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+21-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:18:5-76
+21-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:18:22-73
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:19:5-80
+22-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:19:22-77
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:20:5-81
+23-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:20:22-78
+24    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+24-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:21:5-79
+24-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:21:22-76
+25
+26    <queries>
+26-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:23:5-27:15
+27        <intent>
+27-->[com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.54.0] /Users/partha/.gradle/caches/transforms-3/99a9b9a7626adf4ff67c9c32bb1b2c7f/transformed/jetified-prism-android-fingerprint-sdk-0.54.0/AndroidManifest.xml:24:9-26:18
+28            <action android:name="android.intent.action.MAIN" />
+28-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:21:13-65
+28-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:21:21-62
+29        </intent>
+30    </queries> <!-- Include required permissions for Advertising Id -->
+31    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+31-->[com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/partha/.gradle/caches/transforms-3/9e509d095a4dd6df40d94bf788e91b22/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
+31-->[com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/partha/.gradle/caches/transforms-3/9e509d095a4dd6df40d94bf788e91b22/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:22-76
+32
+33    <application
+33-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:6:5-25:19
+34        android:name="com.example.reactnativefingerprint.MainApplication"
+34-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:7:7-38
+35        android:allowBackup="false"
+35-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:11:7-34
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.6.0] /Users/partha/.gradle/caches/transforms-3/d97418f29556dc00d9262accd924e8ac/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:9:7-41
+39        android:label="@string/app_name"
+39-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:8:7-39
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:10:7-52
+41        android:theme="@style/AppTheme"
+41-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:12:7-38
+42        android:usesCleartextTraffic="true" >
+42-->/Users/partha/OTL+Finger/example/android/app/src/debug/AndroidManifest.xml:8:9-44
+43        <activity
+43-->/Users/partha/OTL+Finger/example/android/app/src/debug/AndroidManifest.xml:11:9-111
+44            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+44-->/Users/partha/OTL+Finger/example/android/app/src/debug/AndroidManifest.xml:11:19-83
+45            android:exported="false" />
+45-->/Users/partha/OTL+Finger/example/android/app/src/debug/AndroidManifest.xml:11:84-108
+46        <activity
+46-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:13:7-24:18
+47            android:name="com.example.reactnativefingerprint.MainActivity"
+47-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:14:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+48-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:16:9-118
+49            android:exported="true"
+49-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:19:9-32
+50            android:label="@string/app_name"
+50-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:15:9-41
+51            android:launchMode="singleTask"
+51-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:17:9-40
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:18:9-51
+53            <intent-filter>
+53-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:20:9-23:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:21:13-65
+54-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:21:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:22:13-73
+56-->/Users/partha/OTL+Finger/example/android/app/src/main/AndroidManifest.xml:22:23-70
+57            </intent-filter>
+58        </activity>
+59
+60        <meta-data
+60-->[com.google.android.gms:play-services-basement:18.0.0] /Users/partha/.gradle/caches/transforms-3/d5d1c2664904913725836b0c8c7f15eb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+61            android:name="com.google.android.gms.version"
+61-->[com.google.android.gms:play-services-basement:18.0.0] /Users/partha/.gradle/caches/transforms-3/d5d1c2664904913725836b0c8c7f15eb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+62            android:value="@integer/google_play_services_version" />
+62-->[com.google.android.gms:play-services-basement:18.0.0] /Users/partha/.gradle/caches/transforms-3/d5d1c2664904913725836b0c8c7f15eb/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+63
+64        <provider
+64-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/partha/.gradle/caches/transforms-3/f1d19461dd8006d037e6a00aa095a44a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+65            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/partha/.gradle/caches/transforms-3/f1d19461dd8006d037e6a00aa095a44a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+66            android:authorities="com.example.reactnativefingerprint.lifecycle-process"
+66-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/partha/.gradle/caches/transforms-3/f1d19461dd8006d037e6a00aa095a44a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+67            android:exported="false"
+67-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/partha/.gradle/caches/transforms-3/f1d19461dd8006d037e6a00aa095a44a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+68            android:multiprocess="true" />
+68-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/partha/.gradle/caches/transforms-3/f1d19461dd8006d037e6a00aa095a44a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+69        <!--
+70             The Mixpanel library will automatically attempt to show available in
+71             app notifications every time a new Activity is displayed. To disable this behavior,
+72             add the following line. The default value for this option is set to true.
+73        -->
+74        <!--
+75        <meta-data android:name="com.mixpanel.android.MPConfig.AutoShowMixpanelUpdates"
+76            android:value="false" />
+77        -->
+78        <!--
+79             Set this option to true if you wish for in-app notifications to be displayed without
+80             being tracked by Mixpanel. This is useful for testing the integration with your Android app.
+81             The default value is false.
+82        -->
+83        <!--
+84        <meta-data android:name="com.mixpanel.android.MPConfig.TestMode"
+85            android:value="true" />
+86        -->
+87        <!--
+88             Set the following option to true if you wish to see the debug output from the Mixpanel Android
+89             library. This may be useful in determining when track calls go out or in-app notifications
+90             are fetched. The default value is false.
+91        -->
+92        <!--
+93        <meta-data android:name="com.mixpanel.android.MPConfig.EnableDebugLogging"
+94            android:value="true" />
+95        -->
+96        <!--
+97             This activity allows your application to show Mixpanel takeover in-app notifications.
+98             If you only wish to show mini in-app notifications, you do not need to declare this Activity.
+99             You may also specify a different theme to better fit the look and feel of your application.
+100        -->
+101        <!--
+102        <activity android:name="com.mixpanel.android.takeoverinapp.TakeoverInAppActivity"
+103                  android:theme="@style/com_mixpanel_android_TakeoverInAppActivityTheme" />
+104        -->
+105        <!-- This service will allow your application to register for and receive Mixpanel push notifications. -->
+106        <!--
+107        <service
+108            android:name="com.mixpanel.android.mpmetrics.MixpanelFCMMessagingService"
+109            android:enabled="true"
+110            android:exported="false">
+111            <intent-filter>
+112                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+113            </intent-filter>
+114        </service>
+115        -->
+116        <!-- This activity will allow your application to make tracking calls to the MixpanelAPI for notification interactions -->
+117        <activity
+117-->[com.mixpanel.android:mixpanel-android:5.9.6] /Users/partha/.gradle/caches/transforms-3/d500eb8d7634807c789cb2e58969ee76/transformed/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:75:9-77:40
+118            android:name="com.mixpanel.android.mpmetrics.MixpanelNotificationRouteActivity"
+118-->[com.mixpanel.android:mixpanel-android:5.9.6] /Users/partha/.gradle/caches/transforms-3/d500eb8d7634807c789cb2e58969ee76/transformed/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:76:13-92
+119            android:exported="false" />
+119-->[com.mixpanel.android:mixpanel-android:5.9.6] /Users/partha/.gradle/caches/transforms-3/d500eb8d7634807c789cb2e58969ee76/transformed/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:77:13-37
+120
+121        <receiver android:name="com.mixpanel.android.mpmetrics.MixpanelPushNotificationDismissedReceiver" />
+121-->[com.mixpanel.android:mixpanel-android:5.9.6] /Users/partha/.gradle/caches/transforms-3/d500eb8d7634807c789cb2e58969ee76/transformed/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:79:9-109
+121-->[com.mixpanel.android:mixpanel-android:5.9.6] /Users/partha/.gradle/caches/transforms-3/d500eb8d7634807c789cb2e58969ee76/transformed/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:79:19-106
+122
+123        <uses-library
+123-->[com.mixpanel.android:mixpanel-android:5.9.6] /Users/partha/.gradle/caches/transforms-3/d500eb8d7634807c789cb2e58969ee76/transformed/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:81:9-83:40
+124            android:name="android.test.runner"
+124-->[com.mixpanel.android:mixpanel-android:5.9.6] /Users/partha/.gradle/caches/transforms-3/d500eb8d7634807c789cb2e58969ee76/transformed/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:82:13-47
+125            android:required="false" />
+125-->[com.mixpanel.android:mixpanel-android:5.9.6] /Users/partha/.gradle/caches/transforms-3/d500eb8d7634807c789cb2e58969ee76/transformed/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:83:13-37
+126    </application>
+127
+128</manifest>

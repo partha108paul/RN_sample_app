@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FingerprintExample.iml" filepath="$PROJECT_DIR$/.idea/modules/FingerprintExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FingerprintExample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FingerprintExample.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FingerprintExample.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FingerprintExample.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FingerprintExample.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FingerprintExample.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FingerprintExample.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FingerprintExample.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-502169783/FingerprintExample.react-native-fingerprint.iml" filepath="$PROJECT_DIR$/.idea/modules/-502169783/FingerprintExample.react-native-fingerprint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-502169783/FingerprintExample.react-native-fingerprint.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-502169783/FingerprintExample.react-native-fingerprint.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-502169783/FingerprintExample.react-native-fingerprint.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-502169783/FingerprintExample.react-native-fingerprint.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-502169783/FingerprintExample.react-native-fingerprint.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-502169783/FingerprintExample.react-native-fingerprint.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/381024747/react-native-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/381024747/react-native-gradle-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/381024747/react-native-gradle-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/381024747/react-native-gradle-plugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/381024747/react-native-gradle-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/381024747/react-native-gradle-plugin.test.iml" />
+    </modules>
+  </component>
+</project>

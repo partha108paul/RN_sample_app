@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Bureau-Inc:prism-android-fingerprint-sdk:0.21.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f568416252e05c553eae785b99fcd2b5/transformed/jetified-prism-android-fingerprint-sdk-0.21.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f568416252e05c553eae785b99fcd2b5/transformed/jetified-prism-android-fingerprint-sdk-0.21.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f568416252e05c553eae785b99fcd2b5/transformed/jetified-prism-android-fingerprint-sdk-0.21.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
